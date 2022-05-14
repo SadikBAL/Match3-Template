@@ -4,13 +4,17 @@
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
+[Pp]lugins/
+[Pp]ackages/
+/[Uu]ser[Ss]ettings/
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # [Aa]ssets/AssetStoreTools*
 
 # Visual Studio cache directory
 .vs/
-
+.vsconfig
+s
 # Gradle cache directory
 .gradle/
 
@@ -36,6 +40,10 @@ ExportedObj/
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+*.prefab.meta
+*.png.meta
+*.mat.meta
+*.meta
 
 # Unity3D generated file on crash reports
 sysinfo.txt
@@ -46,3 +54,10 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Temporary auto-generated Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*

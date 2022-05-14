@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050a8e89d1c780f438fe12b814994812, type: 3}
+  m_Name: Prototype1
+  m_EditorClassIdentifier: 
+  Width: 10
+  Height: 20
+  SlideSpeed: 0.5
+  ExplosionSpeed: 0.196
+  SwapSpeed: 0.2
+  Prefabs:
+  - {fileID: 6941461662237903359, guid: a75c6ef30d786f645bf8c749f2fc5764, type: 3}
+  - {fileID: 82480298407198545, guid: 8844ea4e6843bc54f9fea38ec507b345, type: 3}
+  - {fileID: 6520246027819150933, guid: 945593eb0e1356c44acaa8cb4d4ada0e, type: 3}
+  - {fileID: 810466203236832582, guid: 3f4db3e2b86ebe9489ab8833c0f79bd8, type: 3}
+  - {fileID: 5274617883854805173, guid: b9c8ceae1f1a732489bf92a2baa9fcbb, type: 3}
+  - {fileID: 1212533432774626651, guid: 152e143709feaac419e9af8fb630333a, type: 3}
+  - {fileID: 4814661488831891841, guid: c228f7bd615834c408b8d7d9f704d2fb, type: 3}
+  - {fileID: 1135571297762754474, guid: 3c5f414240e34174390f183e644f9668, type: 3}
+  TileBack: {fileID: 5046906191481132773, guid: 41cfaefa2ad9a1744a54c200a773a6a3, type: 3}
+  DisabledTiles:
+  - {x: 0, y: 0}
+  - {x: 0, y: 1}
+  - {x: 0, y: 2}
+  - {x: 1, y: 0}
+  - {x: 1, y: 1}
+  - {x: 2, y: 0}
+  - {x: 9, y: 0}
+  - {x: 9, y: 1}
+  - {x: 9, y: 2}
+  - {x: 8, y: 0}
+  - {x: 8, y: 1}
+  - {x: 7, y: 0}
+  - {x: 0, y: 19}
+  - {x: 0, y: 18}
+  - {x: 0, y: 17}
+  - {x: 1, y: 19}
+  - {x: 1, y: 18}
+  - {x: 2, y: 19}
+  - {x: 9, y: 19}
+  - {x: 9, y: 18}
+  - {x: 9, y: 17}
+  - {x: 8, y: 19}
+  - {x: 8, y: 18}
+  - {x: 7, y: 19}
+  - {x: 3, y: 8}
+  - {x: 4, y: 8}
+  - {x: 5, y: 8}
+  - {x: 6, y: 8}
+  - {x: 3, y: 7}
+  - {x: 4, y: 7}
+  - {x: 5, y: 7}
+  - {x: 6, y: 7}
+  - {x: 3, y: 9}
+  - {x: 4, y: 9}
+  - {x: 5, y: 9}
+  - {x: 6, y: 9}
+  - {x: 3, y: 10}
+  - {x: 4, y: 10}
+  - {x: 5, y: 10}
+  - {x: 6, y: 10}
+  - {x: 3, y: 11}
+  - {x: 4, y: 11}
+  - {x: 5, y: 11}
+  - {x: 6, y: 11}
+  - {x: 3, y: 12}
+  - {x: 4, y: 12}
+  - {x: 5, y: 12}
+  - {x: 6, y: 12}
+  SpawnRates: 640000006400000064000000640000006400000064000000010000000a000000
+  Sprites:
+  - {fileID: 21300000, guid: 3c3ea150fbe5d2242a151f9d5ac3eaef, type: 3}
+  - {fileID: 21300000, guid: 3d91a4c7f3046b842a0b16ab17a03f56, type: 3}
+  - {fileID: 21300000, guid: 2531f271141f94040b7f7c8eeb0be0c1, type: 3}
+  - {fileID: 21300000, guid: 1686de16ab7276143bc59dfcc744cc8a, type: 3}
+  - {fileID: 21300000, guid: e78e029b31893e748917a3df9d3fc2f4, type: 3}
+  - {fileID: 21300000, guid: 2ca109f784d07be42af7e14e26bce4cd, type: 3}
+  - {fileID: 21300000, guid: 002599782ed29db469a39056e028f495, type: 3}
+  - {fileID: 21300000, guid: 923b182fa76fe4447a8bc3d1721ee2ae, type: 3}
+  - {fileID: 21300000, guid: ab488a642231e724fa1264bb0b5a3bf9, type: 3}
+  - {fileID: 21300000, guid: c36631ae7a59f6f48badc016d3875e37, type: 3}
+  - {fileID: 21300000, guid: f2fbe6de6e397444c9b67526a7a284c8, type: 3}
+  - {fileID: 21300000, guid: b8ee52d48a135184ea9c4ad4de01a418, type: 3}
